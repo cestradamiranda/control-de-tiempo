@@ -8,11 +8,13 @@ import { AppMaterialModule } from './app.material.module';
 import { FormsModule } from '@angular/forms';
 
 import { SideNavComponent } from './sidenav/sidenav.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavComponent
+    SideNavComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
