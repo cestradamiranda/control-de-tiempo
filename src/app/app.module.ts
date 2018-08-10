@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule }  from './app-routing.module';
 import { AppMaterialModule } from './app.material.module';
 import { FormsModule } from '@angular/forms';
 
@@ -19,6 +20,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
     AppMaterialModule,
     BrowserAnimationsModule
   ],
