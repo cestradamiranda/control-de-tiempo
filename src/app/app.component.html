@@ -1,11 +1,8 @@
 <div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
-  <mat-toolbar color="primary" class="example-toolbar">
-    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
-    <h1 class="example-app-name">Control de Tiempo</h1>
-  </mat-toolbar>
 
-  <ct-side-nav #snav></ct-side-nav>
+  <app-ct-header></app-ct-header>
 
+  <router-outlet></router-outlet>
 
 </div>
 
