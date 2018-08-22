@@ -10,6 +10,7 @@ export class ExampleOutletComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

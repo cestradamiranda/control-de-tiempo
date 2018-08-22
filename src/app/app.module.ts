@@ -24,9 +24,9 @@ import { ExampleOutletComponent } from './example-outlet/example-outlet.componen
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule,
     AppMaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
